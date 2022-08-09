@@ -9,7 +9,7 @@ const Step2 = () => {
         if (!wname) {
           alert('Enter Workspace name')
         } else {
-          navigate('../step3', { replace: true })
+          navigate('../step3')
         }
       }
   return (

@@ -12,7 +12,7 @@ const Step3 = () => {
       if (!select) {
         alert('Please select catgeory')
       } else {
-        navigate('../step4', { replace: true })
+        navigate('../step4')
       }
     }
   return (

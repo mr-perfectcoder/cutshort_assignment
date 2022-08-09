@@ -8,7 +8,7 @@ const Step1 = () => {
     if(!fname || !dname){
       alert('All fields are required')
     }else{
-       navigate('../step2', { replace: true })
+       navigate('../step2')
     }
   }
   return (
