@@ -33,7 +33,7 @@ const Step1 = () => {
               onChange={(event) => setfname(event.target.value)}
             />
           </div>
-          <div className='mb-4'>
+          <div className='mb-6'>
             <label className='block text-gray-700 font-semibold text-sm mb-2'>
               Display Name
             </label>
